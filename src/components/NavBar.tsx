@@ -3,8 +3,6 @@ import React from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
-
-
 const menuItems = [
   { name: "Home", href: "#link" },
   { name: "About", href: "#link" },

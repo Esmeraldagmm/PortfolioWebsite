@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import { Button } from "./ui/button";
+import { Separator } from "./ui/separator";
+import Link from "next/link";
 
 function AboutMeSection() {
   return (
@@ -43,7 +46,7 @@ function AboutMeSection() {
               className="shadow-lg rounded-xl"
             />
           </div>
-           <div className="absolute top-[-50px] left-[-50px] z-40">
+          <div className="absolute top-[-50px] left-[-50px] z-40">
             <Image
               src="/Flowers.png"
               alt="Flowers"
@@ -69,18 +72,33 @@ function AboutMeSection() {
             About Me
           </h1>
           <p className="gradient-text mt-8 max-w-2xl text-pretty text-lg">
-            Hi, my name is Esmeralda! I'm a rising senior majoring in Computer Science and Information Security.
-            I have experience in full-stack development and aspire to be a Software Engineer.
-            I also have an interest in the legal field and a desire to help my community,
-            which led me to become a Spanish legal interpreter and translator.
-           </p>
-           <p className="gradient-text mt-8 max-w-2xl text-pretty text-lg">
-            I love sunsets! They are one of my favorite things to photograph and they inspire me
-            to appreciate the beauty in everyday moments. I also enjoy spending time outdoors and exloring 
-            new cafes whenever I get the chance.
+            Hi, my name is Esmeralda! I'm a rising senior majoring in Computer
+            Science and Information Security. I have experience in full-stack
+            development and aspire to be a Software Engineer. I also have an
+            interest in the legal field and a desire to help my community, which
+            led me to become a Spanish legal interpreter and translator.
           </p>
+          <p className="gradient-text mt-8 max-w-2xl text-pretty text-lg">
+            I love sunsets! They are one of my favorite things to photograph and
+            they inspire me to appreciate the beauty in everyday moments. I also
+            enjoy spending time outdoors and exloring new cafes whenever I get
+            the chance.
+          </p>
+          {/* resume */}
+          <div className="mt-7 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start pb-10" > 
+          <Button asChild size="lg" className="px-5 text-base">
+            <a
+                href="https://drive.google.com/file/d/1fWLIyh34B0b5x3Y9Vwl3W0cqWi9ypHYX/view?usp=sharing"
+                target="_blank"
+                className="block"
+              >
+              <span className="text-nowrap">View Resume</span>
+              </a>
+          </Button>
+        </div>
         </div>
       </div>
+      <Separator />
     </div>
   );
 }

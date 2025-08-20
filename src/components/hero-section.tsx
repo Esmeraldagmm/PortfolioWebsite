@@ -3,6 +3,7 @@ import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { Separator } from "./ui/separator";
 import NavBar from "@/components/NavBar";
 
 function HeroSection() {
@@ -71,6 +72,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
+      <Separator />
     </>
   );
 }

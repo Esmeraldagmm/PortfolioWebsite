@@ -6,7 +6,7 @@ function SkillsSection() {
     <div className="flex items-center justify-center min-h-screen">
       <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:flex-row lg:items-center">
         <div className="py-10 px-6 w-full">
-          <h1 className="text-5xl font-bold text-center mb-10">My Skills</h1>
+          <h1 className="text-5xl font-bold text-center mb-10">Skills</h1>
           <div className="relative mx-auto max-w-6xl grid grid-cols-2 grid-rows-2 gap-8 min-h-[600px]">
             {/* Vertical line */}
             <div

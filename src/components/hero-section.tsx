@@ -65,7 +65,7 @@ function HeroSection() {
             <Image
               src="/Headshot.png"
               alt="Headshot"
-              width={450}
+              width={500}
               height={250}
               className="rounded-full object-cover border-4 border-accent-foreground shadow-lg"
             />

@@ -4,11 +4,11 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
 const menuItems = [
-  { name: "Home", href: "#link" },
-  { name: "About", href: "#link" },
-  { name: "Skills", href: "#link" },
-  { name: "Projects", href: "#link" },
-  { name: "Experience", href: "#link" },
+  { name: "Home", href: "#hero" },
+  { name: "About", href: "#about" },
+  { name: "Skills", href: "#skills" },
+  { name: "Projects", href: "#projects" },
+  { name: "Experience", href: "#experience" },
 ];
 
 const NavBar = () => {
@@ -17,7 +17,7 @@ const NavBar = () => {
     <header>
       <nav
         data-state={menuState && "active"}
-        className="bg-black fixed z-20 w-full border-b backdrop-blur-3xl"
+        className="bg-black fixed z-[100] w-full border-b backdrop-blur-3xl"
       >
         <div className="mx-auto max-w-6xl px-6 transition-all duration-300">
           <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">

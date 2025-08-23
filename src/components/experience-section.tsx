@@ -4,7 +4,10 @@ import { Cpu } from "lucide-react";
 
 function ExperienceSection() {
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div
+      id="experience"
+      className="flex items-center justify-center min-h-screen"
+    >
       <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:flex-row lg:items-center">
         <div className="py-10 px-6 w-full">
           <h1 className="text-5xl font-bold text-center mb-10">Experiences</h1>
@@ -21,12 +24,20 @@ function ExperienceSection() {
                   Jun 2025 - Aug 2025
                 </span>
                 <p className="text-base text-gray-700">
-                  Contributed to full-stack development of customer-facing applications using React, TypeScript, GraphQL, and Jest, following test-driven deployment principles
-                  and agile methodologies. Implemented recall functionality to re-engage customers with their insurance quotes, including edge-case handling and unit testing
-                  to ensure reliability. Enhanced the Experiments Manager app, a platform that manages
-                  user traffic across control and test groups to evaluate new features, by improving user experience and feature integrity. 
-                  Resolved high-severity security vulnerabilities and verified builds through Bamboo CI pipelines and GitHub Actions. Work supported
-                  13 internal teams and is used daily by hundreds of customers, strengthening system reliability, security, and customer engagement.
+                  Contributed to full-stack development of customer-facing
+                  applications using React, TypeScript, GraphQL, and Jest,
+                  following test-driven deployment principles and agile
+                  methodologies. Implemented recall functionality to re-engage
+                  customers with their insurance quotes, including edge-case
+                  handling and unit testing to ensure reliability. Enhanced the
+                  Experiments Manager app, a platform that manages user traffic
+                  across control and test groups to evaluate new features, by
+                  improving user experience and feature integrity. Resolved
+                  high-severity security vulnerabilities and verified builds
+                  through Bamboo CI pipelines and GitHub Actions. Work supported
+                  13 internal teams and is used daily by hundreds of customers,
+                  strengthening system reliability, security, and customer
+                  engagement.
                 </p>
               </li>
               <li className="mb-10 ml-6">
@@ -59,8 +70,8 @@ function ExperienceSection() {
                 </span>
                 <p className="text-base text-gray-700">
                   Developed fully-functional apps using XCode and Swift. Built
-                  engaging user interfaces, then connected the UI with logic
-                  and cloud-based APIs to build complete iOS applications.
+                  engaging user interfaces, then connected the UI with logic and
+                  cloud-based APIs to build complete iOS applications.
                 </p>
               </li>
               <li className="mb-10 ml-6">

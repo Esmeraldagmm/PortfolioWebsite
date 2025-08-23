@@ -11,7 +11,7 @@ function HeroSection() {
     <>
       {/* include NavBar component */}
       <NavBar />
-      <div className="pb-0 pt-12 md:pb-0 lg:pb-35 lg:pt-44">
+      <div id="hero" className="pb-0 pt-12 md:pb-0 lg:pb-35 lg:pt-44">
         <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:flex-row lg:items-center">
           {/* mobile setup*/}
           <div className="flex justify-center lg:hidden pt-10">

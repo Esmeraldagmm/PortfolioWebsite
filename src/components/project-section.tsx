@@ -11,7 +11,10 @@ import {
 
 function ProjectSection() {
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div
+      id="projects"
+      className="flex items-center justify-center min-h-screen"
+    >
       <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:flex-row lg:items-center">
         <div className="py-10 px-6 w-full">
           <h1 className="text-5xl font-bold text-center mb-10">Projects</h1>
@@ -48,10 +51,10 @@ function ProjectSection() {
               ].map((item, index) => (
                 <CarouselItem
                   key={index}
-                  className="md:basis-2/3 lg:basis-1/2 flex justify-center"
+                  className="w-full flex justify-center md:basis-2/3 lg:basis-1/2"
                 >
                   <div className="p-4 w-full flex justify-center">
-                    <Card className="w-full max-w-2xl min-h-[700px] flex flex-col justify-between">
+                    <Card className="w-full min-h-[700px] flex flex-col justify-between max-w-xs sm:max-w-sm md:max-w-lg lg:max-w-2xl">
                       <CardContent className="flex flex-col items-center w-full h-full p-12 flex-1">
                         <h2 className="text-2xl font-bold mb-4 text-center">
                           {item.header}
@@ -87,8 +90,10 @@ function ProjectSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <div className="flex w-full justify-between mt-4 md:mt-0">
+              <CarouselPrevious />
+              <CarouselNext />
+            </div>
           </Carousel>
         </div>
       </div>

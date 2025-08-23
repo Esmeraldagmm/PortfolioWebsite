@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function AboutMeSection() {
   return (
-    <div className="pb-10 pt-10 md:pb-10 lg:pb-10 lg:pt-10">
+    <div id="about" className="pb-10 pt-10 md:pb-10 lg:pb-10 lg:pt-10">
       <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:flex-row lg:items-center">
         {/* Desktop: collage of images */}
         <div className="ml-10 relative mt-12 hidden lg:flex lg:w-1/2 lg:h-[600px]">
@@ -85,17 +85,17 @@ function AboutMeSection() {
             the chance.
           </p>
           {/* resume */}
-          <div className="mt-7 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start pb-10" > 
-          <Button asChild size="lg" className="px-5 text-base">
-            <a
+          <div className="mt-7 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start pb-10">
+            <Button asChild size="lg" className="px-5 text-base">
+              <a
                 href="https://drive.google.com/file/d/1fWLIyh34B0b5x3Y9Vwl3W0cqWi9ypHYX/view?usp=sharing"
                 target="_blank"
                 className="block"
               >
-              <span className="text-nowrap">View Resume</span>
+                <span className="text-nowrap">View Resume</span>
               </a>
-          </Button>
-        </div>
+            </Button>
+          </div>
         </div>
       </div>
       <Separator />

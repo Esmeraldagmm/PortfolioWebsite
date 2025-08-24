@@ -39,25 +39,25 @@ function HeroSection() {
                 href="https://github.com/Esmeraldagmm"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group rounded-xl p-2 transition duration-200 hover:bg-gray-100"
+                className="group rounded-xl p-2 transition duration-200"
               >
-                <FaGithub className="text-[3rem] text-black group-hover:text-gray-600 transition-colors duration-200" />
+                <FaGithub className="text-muted-foreground hover:text-black block size-11" />
               </a>
               {/* linkedin */}
               <a
                 href="https://www.linkedin.com/in/esmeraldagm/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group rounded-xl p-2 transition duration-200 hover:bg-gray-100"
+                className="group rounded-xl p-2 transition duration-200"
               >
-                <FaLinkedin className="text-[3rem] text-black group-hover:text-gray-600 transition-colors duration-200" />
+                <FaLinkedin className="text-muted-foreground hover:text-black block size-11" />
               </a>
               {/* email */}
               <a
                 href="mailto:esmeraldamenera27@gmail.com"
-                className="group rounded-xl p-2 transition duration-200 hover:bg-gray-100"
+                className="group rounded-xl p-2 transition duration-200"
               >
-                <MdEmail className="text-[3rem] text-black group-hover:text-gray-600 transition-colors duration-200" />
+                <MdEmail className="text-muted-foreground hover:text-black block size-11" />
               </a>
             </div>
           </div>

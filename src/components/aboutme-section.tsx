@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
-import Link from "next/link";
 
 function AboutMeSection() {
   return (
@@ -88,7 +87,7 @@ function AboutMeSection() {
           <div className="mt-7 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start pb-10">
             <Button asChild size="lg" className="px-5 text-base">
               <a
-                href="https://drive.google.com/file/d/1fWLIyh34B0b5x3Y9Vwl3W0cqWi9ypHYX/view?usp=sharing"
+                href="https://drive.google.com/file/d/1DD3lrw5DpNGKqNlmZwPpYpnAOk6UedrG/view?usp=sharing"
                 target="_blank"
                 className="block"
               >

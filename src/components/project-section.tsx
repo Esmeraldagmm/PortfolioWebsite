@@ -50,6 +50,13 @@ function ProjectSection() {
                     sub: "React, Express.js, JavaScript, Tailwind CSS, PostgreSQL, Prisma, Supabase, OpenAI",
                     link: "https://github.com/JNikolo/Aspire",
                   },
+                  {
+                    header: "Spanish Access",
+                    image: "/spanish.png",
+                    main: "A web application that helps Spanish speakers navigate everyday situations—like hospital visits, school meetings, or banking—by teaching key English vocabulary in a simple, engaging, and visually intuitive way, making language learning accessible and reducing user anxiety.",
+                    sub: "React, Next.js, JavaScript, Tailwind CSS, FireBase",
+                    link: "GitHub",
+                  },
                 ].map((item, index) => (
                   <CarouselItem
                     key={index}

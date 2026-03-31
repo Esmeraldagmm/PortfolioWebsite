@@ -20,8 +20,8 @@ function AboutMeSection() {
           </div>
           <div className="absolute top-50 left-35 z-40">
             <Image
-              src="/Coffee.png"
-              alt="Coffee"
+              src="/paris.png"
+              alt="paris"
               width={220}
               height={280}
               className="shadow-lg rounded-xl"
@@ -29,8 +29,8 @@ function AboutMeSection() {
           </div>
           <div className="absolute top-70 left-[-10px] z-30">
             <Image
-              src="/NYC.png"
-              alt="NYC"
+              src="/fountain.png"
+              alt="fountain"
               width={180}
               height={240}
               className="shadow-lg rounded-xl"
@@ -38,8 +38,8 @@ function AboutMeSection() {
           </div>
           <div className="absolute top-[300px] left-[340px] z-40">
             <Image
-              src="/Outdoors.png"
-              alt="Outdoors"
+              src="/rome.png"
+              alt="rome"
               width={180}
               height={240}
               className="shadow-lg rounded-xl"
@@ -71,17 +71,17 @@ function AboutMeSection() {
             About Me
           </h1>
           <p className="gradient-text mt-8 max-w-2xl text-pretty text-lg">
-            Hi, my name is Esmeralda! I'm a rising senior majoring in Computer
-            Science and Information Security. I have experience in full-stack
-            development and aspire to be a Software Engineer. I also have an
+            Hi, my name is Esmeralda! I'm a Software Engineer and a graduating
+            senior majoring in Computer Science and Information Security. I have
+            experience in front-end and back-end engineering. I also have an
             interest in the legal field and a desire to help my community, which
             led me to become a Spanish legal interpreter and translator.
           </p>
           <p className="gradient-text mt-8 max-w-2xl text-pretty text-lg">
             I love sunsets! They are one of my favorite things to photograph and
             they inspire me to appreciate the beauty in everyday moments. I also
-            enjoy spending time outdoors and exloring new cafes whenever I get
-            the chance.
+            love traveling and exploring new cultures. I even learned some
+            Italian during my time studying abroad in Florence, Italy!
           </p>
           {/* resume */}
           <div className="mt-7 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start pb-10">

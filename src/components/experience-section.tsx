@@ -130,6 +130,26 @@ function ExperienceSection() {
                   and privacy management.
                 </p>
               </li>
+              <li className="mb-10 ml-6">
+                <span className="flex absolute -left-5 justify-center items-center w-10 h-10 bg-black rounded-full ring-4 ring-white">
+                  <Cpu className="text-white size-5" />
+                </span>
+                <h3 className="font-semibold text-xl">
+                  Court Interpreter Intern - New York State Unified Court System
+                </h3>
+                <span className="block text-base text-gray-500 mb-2">
+                  Apr 2024 - May 2024
+                </span>
+                <p className="text-base text-gray-700">
+                  Provided simultaneous and consecutive Spanish-English
+                  interpretation for criminal court cases, ensuring
+                  Spanish-speaking individuals could fully participate and
+                  understand proceedings. Developed strong attention to detail,
+                  problem-solving, and communication skills. Played a key role
+                  in making the legal process more accessible and equitable for
+                  community members.
+                </p>
+              </li>
             </ol>
           </div>
         </div>

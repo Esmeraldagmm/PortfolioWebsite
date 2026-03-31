@@ -29,8 +29,8 @@ function HeroSection() {
               Esmeralda Gonzalez Menera
             </h1>
             <p className="gradient-text mt-8 max-w-2xl text-pretty text-lg">
-              Computer Science and Information Security student at John Jay
-              College of Criminal Justice, focused on full-stack development
+              Software Engineer and Computer Science and Information Security
+              student at John Jay College of Criminal Justice.
             </p>
 
             <div className="mt-12 flex flex-row items-center justify-center gap-2 lg:justify-start">

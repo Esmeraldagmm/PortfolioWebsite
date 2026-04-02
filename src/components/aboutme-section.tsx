@@ -87,7 +87,7 @@ function AboutMeSection() {
           <div className="mt-7 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start pb-10">
             <Button asChild size="lg" className="px-5 text-base">
               <a
-                href="https://drive.google.com/file/d/1ab4iXObtHdUXvyzfEvsJ-IouUiX8Tw1L/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_kRfsXmKwWglUbrY1Dd10Wg28KdYCMLg/view?usp=sharing"
                 target="_blank"
                 className="block"
               >

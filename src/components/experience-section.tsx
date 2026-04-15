@@ -26,7 +26,7 @@ function ExperienceSection() {
                 <p className="text-base text-gray-700">
                   Contributed to full-stack development of customer-facing
                   applications using React, TypeScript, GraphQL, and Jest,
-                  following test-driven deployment principles and agile
+                  following test-driven development principles and agile
                   methodologies. Implemented recall functionality to re-engage
                   customers with their insurance quotes, including edge-case
                   handling and unit testing to ensure reliability. Enhanced the
@@ -53,7 +53,7 @@ function ExperienceSection() {
                 <p className="text-base text-gray-700">
                   Developed full-stack applications focusing on front-end and
                   back-end technologies with React, Node.js, and JavaScript.
-                  Adopted best practices like MVC architecture and test-driven
+                  Adopted best practices like MVC architecture yand test-driven
                   deployment. Collaborated in teams to design, develop, and
                   deploy apps while applying industry-standard processes.
                 </p>
@@ -128,26 +128,6 @@ function ExperienceSection() {
                   like Linux command line, SSH, and Metasploit, along with a
                   grasp of essential topics in access control, data security,
                   and privacy management.
-                </p>
-              </li>
-              <li className="mb-10 ml-6">
-                <span className="flex absolute -left-5 justify-center items-center w-10 h-10 bg-black rounded-full ring-4 ring-white">
-                  <Cpu className="text-white size-5" />
-                </span>
-                <h3 className="font-semibold text-xl">
-                  Court Interpreter Intern - New York State Unified Court System
-                </h3>
-                <span className="block text-base text-gray-500 mb-2">
-                  Apr 2024 - May 2024
-                </span>
-                <p className="text-base text-gray-700">
-                  Provided simultaneous and consecutive Spanish-English
-                  interpretation for criminal court cases, ensuring
-                  Spanish-speaking individuals could fully participate and
-                  understand proceedings. Developed strong attention to detail,
-                  problem-solving, and communication skills. Played a key role
-                  in making the legal process more accessible and equitable for
-                  community members.
                 </p>
               </li>
             </ol>

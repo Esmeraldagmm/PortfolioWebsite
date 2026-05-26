@@ -30,6 +30,13 @@ function ProjectSection() {
               <CarouselContent>
                 {[
                   {
+                    header: "Threat Intelligenece Agent",
+                    image: "/threat_intelligence.png",
+                    main: "An AI Intelligence Dashboard designed to automate collection, analysis, and reporting of OSINT feeds. The system helps reduce manual workload required to monitor vulnerabilities, security news, and emerging cyber threats.",
+                    sub: "React, Next.js, TypeScript, Tailwind CSS, Python, FastAPI, GroqAPI",
+                    link: "https://github.com/Esmeraldagmm/AI-Threat-Intelligence-Agent",
+                  },
+                  {
                     header: "Vera",
                     image: "/vera.png",
                     main: "A web app designed to help users make informed skincare and makeup decisions. The app allows users to upload product images and view ingredient breakdowns and receive personalized recommendations based on their skin type.",
@@ -49,13 +56,6 @@ function ProjectSection() {
                     main: "Social habit-tracker featuring AI-driven coaching providing personalized insights tailored to unique habits, community support to encourage users to stay motivated on their growth journeys, and engaging heatmaps to visualize progress.",
                     sub: "React, Express.js, JavaScript, Tailwind CSS, PostgreSQL, Prisma, Supabase, OpenAI",
                     link: "https://github.com/JNikolo/Aspire",
-                  },
-                  {
-                    header: "Spanish Access",
-                    image: "/spanish.png",
-                    main: "A web application that helps Spanish speakers navigate everyday situations—like hospital visits, school meetings, or banking—by teaching key English vocabulary in a simple, engaging, and visually intuitive way, making language learning accessible and reducing user anxiety.",
-                    sub: "React, Next.js, JavaScript, Tailwind CSS, FireBase",
-                    link: "GitHub",
                   },
                 ].map((item, index) => (
                   <CarouselItem

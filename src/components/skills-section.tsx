@@ -29,7 +29,7 @@ function SkillsSection() {
                   Programming Languages
                 </h2>
                 <p className="text-gray-700">
-                  JavaScript, TypeScript, Python, HTML, CSS, C++, Java
+                  JavaScript, TypeScript, Python, C++, HTML, CSS, Java
                 </p>
               </div>
               {/* top right box */}
@@ -39,7 +39,7 @@ function SkillsSection() {
                 </h2>
                 <p className="text-gray-700">
                   React, Node.js, Express, Next.js, Vite.js, Tailwind CSS,
-                  GraphQL, Three.js, PyTorch, Jest, Clerk, Prisma
+                  GraphQL, Three.js, PyTorch, FastAPI, Jest, Clerk, Prisma
                 </p>
               </div>
               {/* bottom left box */}
